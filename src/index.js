@@ -4,7 +4,7 @@ const clone = require('just-clone');
 const { pointInPolygon, translateNames, translateName } = require('./utils');
 const { admin1, continents, countries, countryGroupings, regions } = require('./data');
 
-const dataPath = path.join(__dirname, './../data/');
+const dataPath = path.join('node_modules/geojson-places/data/');
 
 /**
  * Get information from coordinates
